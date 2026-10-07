@@ -57,7 +57,10 @@ LanguageBreak doesn't come with a course: you give it the words you want to lear
 Add them in **Settings → Words**. Columns are detected automatically; if it isn't sure which column is which, or the list has no frequency column, it shows you its guesses to check first. You can add several sources for the same language: they're merged word by word, so a deck's recordings and a spreadsheet's example sentences end up on the same card.
 
 <p align="center">
-  <img src="docs/import-report.png" width="440" alt="The report after importing an Anki deck: 1,000 notes read, 996 new words, 9 words split by pronunciation, 999 recordings, and what's still missing">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/import-report-dark.png">
+    <img src="docs/import-report-light.png" width="440" alt="The report after importing an Anki deck: 1,000 notes read, 996 new words, 9 words split by pronunciation, 999 recordings, and what's still missing">
+  </picture>
 </p>
 
 ## During a break
@@ -80,7 +83,12 @@ From the menu bar (💬) you can also **Review Now**, **Pause for 1 Hour** or **
 
 ## Settings
 
-<img src="docs/settings-learning.png" width="360" align="right" alt="Settings, Learning tab: progress, cards per break, languages, new words per day and per break, and when words come back">
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/settings-learning-dark.png">
+    <img src="docs/settings-learning-light.png" width="420" alt="Settings, Learning tab: progress, cards per break, languages, new words per day and per break, and when words come back">
+  </picture>
+</p>
 
 | Tab | What's there |
 |---|---|
@@ -92,7 +100,6 @@ From the menu bar (💬) you can also **Review Now**, **Pause for 1 Hour** or **
 
 **Voices:** words without a recording use macOS's text-to-speech. The Enhanced and Premium voices sound much better than the default ones: **System Settings → Accessibility → Read & Speak → System voice → Manage Voices…**. Settings → Words shows which voice is in use.
 
-<br clear="right">
 
 ## Helpers (optional)
 
