@@ -10,14 +10,23 @@
 </p>
 
 <p align="center">
-  <img src="docs/cantonese-card.png" width="720" alt="A Cantonese flashcard turned over: 我 coloured by tone, its reading ngo5, the meaning, an example sentence, a cheerful mascot, and buttons for forgot, hard, got it and easy">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/cantonese-card-dark.png">
+    <img src="docs/cantonese-card-light.png" width="720" alt="A Cantonese flashcard turned over: 我 coloured by tone, its reading ngo5, the meaning, an example sentence, the steamed-bun mascot (napping in a nightcap in the dark look), and buttons for forgot, hard, got it and easy">
+  </picture>
 </p>
 
 LanguageBreak is a menu bar app that turns breaks into short, fullscreen flashcard sessions. After an hour of work it takes over the screen for a minute or two of review, then gets out of the way. You bring the words, from an Anki deck or a spreadsheet, and it teaches them most common first, scheduling each review just before you'd forget it.
 
 <p align="center">
-  <img src="docs/spanish-sentence.png" width="356" alt="A Spanish sentence card: 'La playa es bonita.' with 'La' highlighted, asking what it does here">
-  <img src="docs/all-done.png" width="356" alt="The end of a break: the mascot cheering above 'All done! 5 cards reviewed. Back to work!'">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/spanish-sentence-dark.png">
+    <img src="docs/spanish-sentence-light.png" width="356" alt="A Spanish sentence card: 'La playa es bonita.' with 'La' highlighted, asking what it does here">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/all-done-dark.png">
+    <img src="docs/all-done-light.png" width="356" alt="The end of a break: the mascot cheering above 'All done! 4 cards reviewed. Back to work!'">
+  </picture>
 </p>
 
 ## Why
@@ -92,7 +101,7 @@ From the menu bar (💬) you can also **Review Now**, **Pause for 1 Hour** or **
 
 | Tab | What's there |
 |---|---|
-| **General** | Start at login, how often breaks come (every 60 min of activity), updates |
+| **General** | Start at login, how often breaks come (every 60 min of activity), how breaks look (match the system, light or dark: at night the mascot puts on a nightcap and naps while you think), updates |
 | **Learning** | Your progress; cards per break; the language you're learning and the one you speak; new words per day and per break; whether new and forgotten words come back in the next break or later in the same one (like Anki); a topic to learn first (needs the Claude or Apple Intelligence helper) |
 | **Words** | Your decks and word lists (add, re-import, remove), and the voice used for words without a recording |
 | **Helpers** | Optional helpers that fill in what your sources are missing (below) |
