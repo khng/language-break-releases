@@ -48,7 +48,7 @@ At the defaults, once reviews have built up, that's about 20 minutes a day sprea
 3. Open it. macOS says it can't verify the developer, because the app isn't notarized by Apple. Click **Done**, then go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** (it asks for your password). You only do this once.
 4. A welcome window helps you choose your language and add words. You can reopen it any time from the menu bar (💬 → **Getting Started…**).
 
-LanguageBreak lives in the menu bar (💬), not the Dock. It doesn't start at login unless you turn on **Start at login** in **Settings → General**. It **updates itself**: once a day it checks for a new version and offers to install it, after checking the update's signature. You can turn this off in **Settings → General**.
+LanguageBreak lives in the menu bar (💬), not the Dock. It doesn't start at login unless you turn on **Start at login** in **Settings → General**. It **updates itself**: once a day it checks for a new version and, after checking the update's signature, installs it quietly, never during a break. To be asked first, turn off **Update automatically** in **Settings → General**.
 
 ## Get some words
 
